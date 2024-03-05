@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 20px;
+}
+.hover {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 0.5%;
+}
+
+a:hover {
+background-color:black;
+color: red;
+text-decoration: none;
+}
+.Position {
+    margin-top: 3%;
+}
+.position {
+    position: relative;
+    width: 30%;
+}
+    
+img {
+    width: 100%;
+    display: block;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color: brown;
+    padding: 1.5%;
+    font-size: 30px;
+    margin: 0;
+}
+.title2 {
+    position: absolute;
+    top:0;
+    right: 0;
+    color: white;
+    background-color: brown;
+    padding: 1.5%;
+    font-size: 30px;
+}
+.title3 {
+    position: absolute;
+    top:0;
+    left: 0;
+    color: white;
+    background-color: brown;
+    padding: 1.5%;
+    font-size: 30px;
+}
+.title4 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    color: white;
+    background-color: brown;
+    padding: 1.5%;
+    font-size: 30px;
+}
+.title5 {
+    position: absolute;
+    bottom:5%;
+    right: 5%;
+    color: white;
+    background-color: brown;
+    padding: 1.5%;
+    font-size: 30px;
+}
+.Header-test {
+    margin-top: 3%;
+}
+header {
+    background-color: black;
+    color: white;
+    line-height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+
+header li {
+    list-style: none;
+    margin-left: 16%;
+}
+header ul {
+    margin-right: 7%;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    margin-left: 10%;
+    
+}
